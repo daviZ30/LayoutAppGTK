@@ -120,7 +120,8 @@ static void activate(GtkApplication *app, gpointer user_data)
     gtk_box_set_homogeneous(GTK_BOX(boxIzq2), true);
 
     gtk_box_append(GTK_BOX(boxIzq2), btnHome);
-    gtk_box_append(GTK_BOX(boxIzq2), btntasks);
+    gtk_box_append(GTK_BOX(boxIzq2), btntasks);      
+    
 
     gtk_image_set_pixel_size(GTK_IMAGE(img), ancho);
 
