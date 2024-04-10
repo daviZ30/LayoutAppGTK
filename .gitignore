@@ -9,6 +9,7 @@
 
 # Ejecutables compilados
 *.out
+*.exe
 
 # Directorio de construcción
 build/
